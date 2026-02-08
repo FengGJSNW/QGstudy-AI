@@ -2,7 +2,6 @@ from Inventory import Inventory
 from Book import Book
 
 # 最近在同步学Java，所以写代码时我想尝试调用接口的方式，或者应该说代码风格弄成类似Java的那种，所以写的繁琐了一点。
-# 下面的demo是AI帮忙弄的一个，
 if __name__ == "__main__":
     b1 = Book("Python入门", 59.9, 10, categories="编程", author="张三")
     b2 = Book("算法", 79.0, 5, categories="编程", author="李四")
